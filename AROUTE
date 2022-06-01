@@ -1,0 +1,1 @@
+oc get route -o jsonpath={..spec.host}{"\n"}
